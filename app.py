@@ -472,6 +472,7 @@ def build_modal_info_overlay(id, side, content):
     return div
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(id="full-layout",
     children=[
@@ -848,4 +849,4 @@ def update_table(mes,empresa):
 
     
 if __name__ == '__main__':
-    app.run_server(mode="inline", host="localhost",port=8054)
+    app.run_server(debug=server)
