@@ -16,8 +16,8 @@ lista_clientes=[]
 data_clientes=[]
 
 for m in ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]: 
-    lista_clientes.append( pd.read_excel("CELEPSA\2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
-    data_clientes.append( pd.read_excel("CELEPSA\2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
+    lista_clientes.append( pd.read_excel("CELEPSA/2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
+    data_clientes.append( pd.read_excel("CELEPSA/2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
 
 data_cliente1=[]
 for i in range(12):
@@ -56,8 +56,8 @@ lista_clientes=[]
 data_clientes=[]
 
 for m in ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]: 
-    lista_clientes.append( pd.read_excel("CERE\2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
-    data_clientes.append( pd.read_excel("CERE\2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
+    lista_clientes.append( pd.read_excel("CERE/2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
+    data_clientes.append( pd.read_excel("CERE/2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
 
 data_cliente1=[]
 for i in range(12):
@@ -95,8 +95,8 @@ lista_clientes=[]
 data_clientes=[]
 
 for m in ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Setiembre","Octubre","Noviembre","Diciembre"]: 
-    lista_clientes.append( pd.read_excel("TCH\2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
-    data_clientes.append( pd.read_excel("TCH\2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
+    lista_clientes.append( pd.read_excel("TCH/2023_" +mes[m]+".xlsx", sheet_name = "REPORTE"))
+    data_clientes.append( pd.read_excel("TCH/2023_" +mes[m]+".xlsx", sheet_name = "DATOS"))
     
 data_cliente1=[]
 for i in range(12):
