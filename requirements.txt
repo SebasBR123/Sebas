@@ -11,7 +11,6 @@ brotlipy==0.7.0
 certifi==2023.7.22
 cfgv==3.4.0
 click==8.1.7
-clyent==1.2.2
 colorcet==3.0.1
 colorlover==0.3.0
 conda-build==3.24.0
