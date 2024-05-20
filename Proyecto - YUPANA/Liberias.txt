@@ -1,0 +1,7 @@
+Liberias:
+
+-pandas
+-openpyxl
+-pyomo
+-amplpy
+-plotly
